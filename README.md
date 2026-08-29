@@ -65,7 +65,7 @@ Do not memorize solutions. Learn the reason behind them.
 - Sorting
 - Binary search
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Two Sum**
 - **Best Time to Buy and Sell Stock**
@@ -100,7 +100,7 @@ Do not memorize solutions. Learn the reason behind them.
 - Sorting
 - Stack
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Valid Palindrome**
 - **Valid Anagram**
@@ -134,7 +134,7 @@ Learn:
 
 > **Need fast lookup? Think Hash Map / Set.**
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Two Sum**
 - **Contains Duplicate**
@@ -164,7 +164,7 @@ Learn:
 
 > Can two moving positions replace repeated scanning?
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Reverse String**
 - **Valid Palindrome**
@@ -192,7 +192,7 @@ Learn:
 - Shrink left
 - Maintain sum/count/state
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Maximum Average Subarray I**
 - **Best Time to Buy and Sell Stock**
@@ -219,7 +219,7 @@ Learn:
 - Range queries
 - Prefix + hash map
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Range Sum Query**
 - **Product of Array Except Self**
@@ -246,7 +246,7 @@ Learn:
 
 > Nested structures / next greater or smaller → think Stack.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Valid Parentheses**
 - **Min Stack**
@@ -270,7 +270,7 @@ Learn:
 - BFS
 - Level-by-level processing
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Rotting Oranges**
 - **Binary Tree Level Order Traversal**
@@ -297,7 +297,7 @@ Learn:
 
 > Linked list + two moving pointers → often fast/slow pointer technique.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Reverse Linked List**
 - **Middle of the Linked List**
@@ -325,7 +325,7 @@ Learn:
 
 Do not spend excessive time implementing every sorting algorithm for interview preparation.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Sort an Array**
 - **Merge Sorted Array**
@@ -354,7 +354,7 @@ Learn:
 
 > Sorted data or a monotonic answer space.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Binary Search**
 - **Search Insert Position**
@@ -388,7 +388,7 @@ Recursive case
 - Return flow
 - Call stack
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Factorial**
 - **Fibonacci**
@@ -407,7 +407,7 @@ Recursive case
 
 Use it when you must explore different possible choices.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Subsets**
 - **Permutations**
@@ -454,7 +454,7 @@ Learn:
 - Delete
 - Validate
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Maximum Depth of Binary Tree**
 - **Binary Tree Preorder Traversal**
@@ -488,7 +488,7 @@ Learn:
 
 > Top/least K, repeated smallest/largest choice, priority processing.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Kth Largest Element in an Array**
 - **Top K Frequent Elements**
@@ -516,7 +516,7 @@ Learn:
 7. Topological sort
 8. Union-Find
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Number of Islands**
 - **Flood Fill**
@@ -543,7 +543,7 @@ Learn:
 - Visited cells
 - BFS/DFS on grids
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Set Matrix Zeroes**
 - **Spiral Matrix**
@@ -593,7 +593,7 @@ Learn:
 - Sorting + greedy
 - Interval greedy problems
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Assign Cookies**
 - **Jump Game**
@@ -623,7 +623,7 @@ Learn:
 
 > Counting bits / XOR / binary-level operations.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Single Number**
 - **Number of 1 Bits**
@@ -655,7 +655,7 @@ Bottom-up DP
 
 > The same smaller problems keep appearing.
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Climbing Stairs**
 - **House Robber**
