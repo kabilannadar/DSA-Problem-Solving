@@ -42,6 +42,42 @@ Do not memorize solutions. Learn the reason behind them.
 
 ---
 
+## Table of Contents
+
+### Core Topics
+1. [Arrays](#1-arrays)
+2. [Strings](#2-strings)
+3. [Hash Maps & Sets](#3-hash-maps--sets)
+4. [Two Pointers](#4-two-pointers)
+5. [Sliding Window](#5-sliding-window)
+6. [Prefix Sum / Precomputation](#6-prefix-sum--precomputation)
+7. [Stack](#7-stack)
+8. [Queue](#8-queue)
+9. [Linked List](#9-linked-list)
+10. [Sorting](#10-sorting)
+11. [Binary Search](#11-binary-search)
+12. [Recursion](#12-recursion)
+13. [Backtracking](#13-backtracking)
+14. [Trees](#14-trees)
+15. [Heaps / Priority Queue](#15-heaps--priority-queue)
+16. [Graphs](#16-graphs)
+17. [Matrix / 2D Arrays](#17-matrix--2d-arrays)
+18. [Intervals](#18-intervals)
+19. [Greedy](#19-greedy)
+20. [Bit Manipulation](#20-bit-manipulation)
+21. [Dynamic Programming](#21-dynamic-programming)
+22. [Trie](#22-trie)
+23. [Advanced Patterns](#23-advanced-patterns)
+
+### Reference Sections
+- [Final Learning Order](#final-learning-order)
+- [Interview Priority](#interview-priority)
+- [Resource Workflow](#resource-workflow)
+- [The Rule for Your Problem List](#the-rule-for-your-problem-list)
+- [Core Interview Set](#core-interview-set)
+
+---
+
 # 1. Arrays
 
 ### Learn
