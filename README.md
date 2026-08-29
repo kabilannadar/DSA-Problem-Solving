@@ -1,4 +1,4 @@
-I will explain everything simply, sweetly, and clearly, just like you are five years old!
+**I will explain everything simply, sweetly, and clearly, just like you are five years old!**
 
 # DSA Roadmap
 
@@ -731,7 +731,7 @@ Learn these only after the core patterns are comfortable.
 - Kth Largest
 - Quickselect
 
-Sean Prashad's current pattern heuristics specifically map these problem clues to monotonic stacks/queues, prefix sums/BIT/segment trees, Union-Find, topological sort, shortest-path methods, and heap/quickselect/bucket-sort approaches. citeturn205748search0
+Sean Prashad's current pattern heuristics specifically map these problem clues to monotonic stacks/queues, prefix sums/BIT/segment trees, Union-Find, topological sort, shortest-path methods, and heap/quickselect/bucket-sort approaches.
 
 ---
 
@@ -765,7 +765,7 @@ Use this as the actual sequence:
 23. Advanced Patterns
 ```
 
-This is deliberately **not identical to Striver's page order**. It is a learning order designed to build one technique on top of another while keeping the high-value interview topics early. Striver's A2Z remains the main course structure; the Handbook and Sean Prashad resources help decide what to prioritize and how to recognize patterns. citeturn205748search0
+This is deliberately **not identical to Striver's page order**. It is a learning order designed to build one technique on top of another while keeping the high-value interview topics early. Striver's A2Z remains the main course structure; the Handbook and Sean Prashad resources help decide what to prioritize and how to recognize patterns.
 
 ---
 
@@ -810,7 +810,7 @@ Advanced Graphs
 Advanced Range Queries
 ```
 
-Tech Interview Handbook currently places Array, String, Sorting/Search, Matrix, Tree and Graph among its high-priority areas, with Hash Table, Recursion, Linked List, Queue, Stack, Heap, Trie and Interval in a middle tier, and DP lower. citeturn579206search0turn579206search1
+Tech Interview Handbook currently places Array, String, Sorting/Search, Matrix, Tree and Graph among its high-priority areas, with Hash Table, Recursion, Linked List, Queue, Stack, Heap, Trie and Interval in a middle tier, and DP lower.
 
 ---
 
@@ -826,7 +826,7 @@ Use it to **understand the technique, complexity, corner cases and interview pri
 
 ### Sean Prashad LeetCode Patterns
 
-Use it to **recognize patterns and choose what to practice next**. It currently contains 179 questions grouped by pattern and includes heuristics such as sorted array → binary search/two pointers, fast lookup → hash table/set, next greater/smaller → monotonic stack, top-K → heap/quickselect/bucket sort, and permutations/subsets → backtracking. citeturn205748search0
+Use it to **recognize patterns and choose what to practice next**. It currently contains 179 questions grouped by pattern and includes heuristics such as sorted array → binary search/two pointers, fast lookup → hash table/set, next greater/smaller → monotonic stack, top-K → heap/quickselect/bucket sort, and permutations/subsets → backtracking.
 
 ### LeetCode
 
