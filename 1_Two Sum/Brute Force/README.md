@@ -103,4 +103,4 @@ because they are the same two indexes.
 ## Complexity
 
 - **Time:** `O(n²)` - The bigger the list gets, the more pairs we have to try.
-- **Space:** `O(1)` - We don't make any new list or box to store more things. We only use `i` and `j` the two loop variables.
+- **Space:** `O(1)` - We don't make any new list to store more things. We only use `i` and `j` the two loop variables.
