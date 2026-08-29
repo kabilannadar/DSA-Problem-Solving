@@ -1,6 +1,6 @@
 # Two Sum - Brute Force Approach
 
-## Flow
+## Understand the Flow
 
 `i` picks the first number.
 
@@ -102,5 +102,5 @@ because they are the same two indexes.
 
 ## Complexity
 
-- **Time:** `O(n²)` — in the worst case, we check every unique pair.
-- **Space:** `O(1)` — we only use the two loop variables.
+- **Time:** `O(n²)` - The bigger the list gets, the more pairs we have to try.
+- **Space:** `O(1)` - We don't make any new list or box to store more things. We only use `i` and `j` the two loop variables.
