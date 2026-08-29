@@ -1,4 +1,4 @@
-# Two Sum — Brute Force
+# Two Sum - Brute Force Approach
 
 ## Flow
 
