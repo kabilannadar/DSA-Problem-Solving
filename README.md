@@ -567,7 +567,7 @@ Learn:
 - Merge intervals
 - Sweep-line idea
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Merge Intervals**
 - **Insert Interval**
@@ -681,7 +681,7 @@ Learn:
 - Search
 - Prefix search
 
-### 🔥 Most important / commonly asked
+### Most important / commonly asked
 
 - **Implement Trie (Prefix Tree)**
 - **Design Add and Search Words Data Structure**
