@@ -60,10 +60,12 @@ The algorithm returns the first valid pair it encounters.
 
 For the example `nums = [1, 2, 3, 4, 5], target = 6`, it checks:
 
+```text
 1 + 2
 1 + 3
 1 + 4
 1 + 5 ← 6 ✅
+```
 
 So it immediately returns:
 
