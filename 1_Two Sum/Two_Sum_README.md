@@ -33,7 +33,7 @@ When the pair adds up to the target, return their indexes.
 → [1, 3]
 ```
 
-## The Two Possibilities
+## The Three Possibilities
 
 ### Possibility 1: A valid pair is found
 
@@ -53,6 +53,25 @@ return [-1, -1]
 ```
 
 This means no pair was found.
+
+### Possibility 3: Multiple valid pairs exist
+
+The algorithm returns the first valid pair it encounters.
+
+For the example `nums = [1, 2, 3, 4, 5], target = 6`, it checks:
+
+1 + 2
+1 + 3
+1 + 4
+1 + 5 ← 6 ✅
+
+So it immediately returns:
+
+[0, 4]
+
+It does not continue looking for 2 + 4.
+
+Note: The original LeetCode Two Sum problem guarantees that there is exactly one valid answer. The third possibility is useful for understanding how the loop behaves when multiple valid pairs exist, but it does not satisfy LeetCode's original guarantee.
 
 ## Why does `j` start at `i + 1`?
 
