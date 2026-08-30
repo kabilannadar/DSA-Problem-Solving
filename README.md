@@ -28,6 +28,16 @@ Test it
 Explain time + space complexity
 ```
 
+The goal is not to memorize solutions.
+
+The goal is to recognize:
+
+```text
+Problem → Pattern → Approach → Complexity
+```
+
+---
+
 ### Two things to learn
 
 **1. The solution progression**
@@ -45,6 +55,7 @@ Do not memorize solutions. Learn the reason behind them.
 ## Table of Contents
 
 ### Core Topics
+
 1. [Arrays](#1-arrays)
 2. [Strings](#2-strings)
 3. [Hash Maps & Sets](#3-hash-maps--sets)
@@ -70,6 +81,7 @@ Do not memorize solutions. Learn the reason behind them.
 23. [Advanced Patterns](#23-advanced-patterns)
 
 ### Reference Sections
+
 - [Final Learning Order](#final-learning-order)
 - [Interview Priority](#interview-priority)
 - [Resource Workflow](#resource-workflow)
@@ -101,16 +113,22 @@ Do not memorize solutions. Learn the reason behind them.
 
 ### Most important / commonly asked
 
-- **Two Sum**
-- **Best Time to Buy and Sell Stock**
-- **Contains Duplicate**
-- **Maximum Subarray**
-- **Product of Array Except Self**
-- **Remove Duplicates from Sorted Array**
-- **Move Zeroes**
-- **Missing Number**
-- **Majority Element**
-- **Intersection of Two Arrays**
+1. **Two Sum**
+2. **Best Time to Buy and Sell Stock**
+3. **Maximum Subarray**
+4. **Contains Duplicate**
+5. **Product of Array Except Self**
+6. **Remove Duplicates from Sorted Array**
+7. **Move Zeroes**
+8. **Missing Number**
+
+## Next Questions
+
+- Majority Element
+- Merge Sorted Array
+- 3Sum
+- Container With Most Water
+- Maximum Product Subarray
 
 ---
 
@@ -136,15 +154,19 @@ Do not memorize solutions. Learn the reason behind them.
 
 ### Most important / commonly asked
 
-- **Valid Palindrome**
-- **Valid Anagram**
-- **First Unique Character in a String**
-- **Longest Substring Without Repeating Characters**
-- **Reverse String**
-- **Reverse Words in a String**
-- **Group Anagrams**
-- **Find All Anagrams in a String**
-- **Minimum Window Substring** (later)
+1. **Reverse String**
+2. **Valid Palindrome**
+3. **Valid Anagram**
+4. **First Unique Character in a String**
+5. **Longest Substring Without Repeating Characters**
+6. **Reverse Words in a String**
+
+## Next Questions
+
+- Group Anagrams
+- Find All Anagrams in a String
+- Longest Repeating Character Replacement
+- Minimum Window Substring
 
 ---
 
@@ -152,7 +174,7 @@ Do not memorize solutions. Learn the reason behind them.
 
 ### Core idea
 
-> Use extra memory to make lookup fast.
+> Use extra memory when fast lookup or counting can remove repeated searching.
 
 Learn:
 
@@ -170,12 +192,18 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Two Sum**
-- **Contains Duplicate**
-- **Valid Anagram**
-- **First Unique Character in a String**
-- **Group Anagrams**
-- **Top K Frequent Elements** (later; usually combines hashing with heap/bucket sort)
+1. **Two Sum**
+2. **Contains Duplicate**
+3. **Valid Anagram**
+4. **First Unique Character in a String**
+5. **Group Anagrams**
+6. **Majority Element**
+
+## Next Questions
+
+- Subarray Sum Equals K
+- Longest Consecutive Sequence
+- Top K Frequent Elements
 
 ---
 
@@ -200,13 +228,17 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Reverse String**
-- **Valid Palindrome**
-- **Remove Duplicates from Sorted Array**
-- **Two Sum II — Input Array Is Sorted**
-- **Merge Sorted Array**
-- **3Sum**
-- **Container With Most Water** (later)
+1. **Reverse String**
+2. **Valid Palindrome**
+3. **Remove Duplicates from Sorted Array**
+4. **Two Sum II — Input Array Is Sorted**
+5. **Merge Sorted Array**
+
+## Next Questions
+
+- 3Sum
+- Container With Most Water
+- Trapping Rain Water
 
 ---
 
@@ -216,7 +248,11 @@ Learn:
 
 > Keep a moving section of a string/array instead of repeatedly checking every possible section.
 
-Use it for **contiguous subarrays / substrings**.
+### Recognition
+
+Look for:
+
+> contiguous subarray / substring + longest / shortest / maximum / minimum
 
 Learn:
 
@@ -228,14 +264,16 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Maximum Average Subarray I**
-- **Best Time to Buy and Sell Stock**
-- **Longest Substring Without Repeating Characters**
-- **Longest Repeating Character Replacement**
-- **Minimum Size Subarray Sum**
-- **Find All Anagrams in a String**
-- **Permutation in String**
-- **Minimum Window Substring** (advanced)
+1. **Longest Substring Without Repeating Characters**
+2. **Best Time to Buy and Sell Stock**
+3. **Minimum Size Subarray Sum**
+
+## Next Questions
+
+- Longest Repeating Character Replacement
+- Find All Anagrams in a String
+- Minimum Window Substring
+- Sliding Window Maximum
 
 ---
 
@@ -255,10 +293,14 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Range Sum Query**
-- **Product of Array Except Self**
-- **Subarray Sum Equals K**
-- **Minimum Size Subarray Sum**
+1. **Range Sum Query**
+2. **Product of Array Except Self**
+3. **Subarray Sum Equals K**
+
+## Next Questions
+
+- Contiguous Array
+- Range Sum Query 2D
 
 ---
 
@@ -278,24 +320,30 @@ Learn:
 
 ### Recognition
 
-> Nested structures / next greater or smaller → think Stack.
+> Nested structures / Undo-like behavior / Next Greater or Smaller → think Stack.
 
 ### Most important / commonly asked
 
-- **Valid Parentheses**
-- **Min Stack**
-- **Next Greater Element**
-- **Daily Temperatures**
-- **Evaluate Reverse Polish Notation**
-- **Largest Rectangle in Histogram** (later)
+1. **Valid Parentheses**
+2. **Min Stack**
+3. **Next Greater Element**
+4. **Daily Temperatures**
+
+## Next Questions
+
+- Evaluate Reverse Polish Notation
+- Largest Rectangle in Histogram
+- Asteroid Collision
 
 ---
 
-# 8. Queue
+# 8. Queue and BFS
 
 ### Core idea
 
 > **FIFO — First In, First Out.**
+
+> Queues are commonly used for BFS and level-by-level processing.
 
 Learn:
 
@@ -306,10 +354,15 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Rotting Oranges**
-- **Binary Tree Level Order Traversal**
-- **Number of Islands** (BFS version)
-- **Implement Queue using Stacks**
+1. **Rotting Oranges**
+2. **Binary Tree Level Order Traversal**
+3. **Number of Islands**
+4. **Implement Queue using Stacks**
+
+## Next Questions
+
+- Open the Lock
+- 01 Matrix
 
 ---
 
@@ -333,13 +386,18 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Reverse Linked List**
-- **Middle of the Linked List**
-- **Linked List Cycle**
-- **Merge Two Sorted Lists**
-- **Remove Nth Node From End of List**
-- **Intersection of Two Linked Lists**
-- **Palindrome Linked List**
+1. **Reverse Linked List**
+2. **Linked List Cycle**
+3. **Middle of the Linked List**
+4. **Merge Two Sorted Lists**
+5. **Remove Nth Node From End of List**
+
+## Next Questions
+
+- Intersection of Two Linked Lists
+- Palindrome Linked List
+- Add Two Numbers
+- Reorder List
 
 ---
 
@@ -351,22 +409,27 @@ Learn:
 
 Learn:
 
-- When sorting helps
+- Why sorting can simplify a problem
 - Sorting + two pointers
 - Sorting + intervals
 - Sorting + greedy
+- Basic sorting complexities
 - `O(n log n)` sorting
 
 Do not spend excessive time implementing every sorting algorithm for interview preparation.
 
 ### Most important / commonly asked
 
-- **Sort an Array**
-- **Merge Sorted Array**
-- **Contains Duplicate**
-- **Merge Intervals**
-- **Meeting Rooms**
-- **Kth Largest Element in an Array** (later)
+1. **Sort an Array**
+2. **Merge Sorted Array**
+3. **Sort Colors**
+4. **Merge Intervals**
+
+## Next Questions
+
+- Non-overlapping Intervals
+- Meeting Rooms
+- Kth Largest Element in an Array
 
 ---
 
@@ -390,14 +453,17 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Binary Search**
-- **Search Insert Position**
-- **First Bad Version**
-- **Find First and Last Position of Element in Sorted Array**
-- **Search in Rotated Sorted Array**
-- **Find Minimum in Rotated Sorted Array**
-- **Koko Eating Bananas**
-- **Capacity to Ship Packages Within D Days** (later)
+1. **Binary Search**
+2. **Search Insert Position**
+3. **Find First and Last Position of Element in Sorted Array**
+4. **Search in Rotated Sorted Array**
+5. **Find Minimum in Rotated Sorted Array**
+
+## Next Questions
+
+- Search a 2D Matrix
+- Koko Eating Bananas
+- Capacity to Ship Packages Within D Days
 
 ---
 
@@ -424,12 +490,17 @@ Recursive case
 
 ### Most important / commonly asked
 
-- **Factorial**
-- **Fibonacci**
-- **Reverse String**
-- **Subsets**
-- **Tree Traversal**
-- **Pow(x, n)**
+1. **Factorial**
+2. **Fibonacci Number**
+3. **Reverse String**
+4. **Power of a Number**
+5. **Subsets**
+
+## Next Questions
+
+- Permutations
+- Tree Traversal
+- Pow(x, n)
 
 ---
 
@@ -437,18 +508,28 @@ Recursive case
 
 ### Core idea
 
-> **Choose → Explore → Undo**
+```text
+Choose
+  ↓
+Explore
+  ↓
+Undo
+```
 
 Use it when you must explore different possible choices.
 
 ### Most important / commonly asked
 
-- **Subsets**
-- **Permutations**
-- **Combination Sum**
-- **Letter Combinations of a Phone Number**
-- **Word Search**
-- **N-Queens** (advanced)
+1. **Subsets**
+2. **Permutations**
+3. **Combination Sum**
+
+## Next Questions
+
+- Letter Combinations of a Phone Number
+- Word Search
+- Palindrome Partitioning
+- N-Queens
 
 ---
 
@@ -490,15 +571,21 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Maximum Depth of Binary Tree**
-- **Binary Tree Preorder Traversal**
-- **Binary Tree Inorder Traversal**
-- **Binary Tree Level Order Traversal**
-- **Invert Binary Tree**
-- **Diameter of Binary Tree**
-- **Lowest Common Ancestor**
-- **Validate Binary Search Tree**
-- **Search in a Binary Search Tree**
+1. **Maximum Depth of Binary Tree**
+   2 **Binary Tree Preorder Traversal**
+2. **Binary Tree Inorder Traversal**
+3. **Binary Tree Level Order Traversal**
+4. **Invert Binary Tree**
+5. **Validate Binary Search Tree**
+
+## Next Questions
+
+- Diameter of Binary Tree
+- Lowest Common Ancestor
+- Search in a Binary Search Tree
+- Insert into a Binary Search Tree
+- Delete Node in a BST
+- Balanced Binary Tree
 
 ---
 
@@ -520,16 +607,20 @@ Learn:
 
 ### Recognition
 
-> Top/least K, repeated smallest/largest choice, priority processing.
+> Top/least K, repeated smallest/largest choice, Repeated priority-based processing.
 
 ### Most important / commonly asked
 
-- **Kth Largest Element in an Array**
-- **Top K Frequent Elements**
-- **K Closest Points to Origin**
-- **Last Stone Weight**
-- **Task Scheduler**
-- **Find Median from Data Stream** (advanced)
+1. **Kth Largest Element in an Array**
+2. **Top K Frequent Elements**
+3. **K Closest Points to Origin**
+4. **Last Stone Weight**
+
+## Next Questions
+
+- Task Scheduler
+- Merge K Sorted Lists
+- Find Median from Data Stream
 
 ---
 
@@ -550,16 +641,30 @@ Learn:
 7. Topological sort
 8. Union-Find
 
+### Recognition
+
+```text
+Reach / traverse → BFS or DFS
+Connectivity → DFS / BFS / Union-Find
+Dependencies → Topological Sort
+Shortest path → BFS / Dijkstra
+```
+
 ### Most important / commonly asked
 
-- **Number of Islands**
-- **Flood Fill**
-- **Rotting Oranges**
-- **Clone Graph**
-- **Course Schedule**
-- **Number of Connected Components**
-- **Graph Valid Tree**
-- **Network Delay Time** (later)
+1. **Number of Islands**
+2. **Flood Fill**
+3. **Rotting Oranges**
+4. **Clone Graph**
+5. **Course Schedule**
+
+## Next Questions
+
+- Number of Connected Components
+- Graph Valid Tree
+- Redundant Connection
+- Course Schedule II
+- Network Delay Time
 
 ---
 
@@ -579,12 +684,17 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Set Matrix Zeroes**
-- **Spiral Matrix**
-- **Rotate Image**
-- **Number of Islands**
-- **Flood Fill**
-- **Rotting Oranges**
+1. **Spiral Matrix**
+2. **Set Matrix Zeroes**
+3. **Rotate Image**
+4. **Number of Islands**
+5. **Flood Fill**
+
+## Next Questions
+
+- Search a 2D Matrix
+- Word Search
+- Pacific Atlantic Water Flow
 
 ---
 
@@ -592,7 +702,11 @@ Learn:
 
 ### Core idea
 
-> Problems involving ranges such as `[start, end]`.
+Work with ranges such as:
+
+```text
+[start, end]
+```
 
 Learn:
 
@@ -601,14 +715,24 @@ Learn:
 - Merge intervals
 - Sweep-line idea
 
+### Recognition
+
+For overlapping intervals:
+
+> Sort first, then reason about the overlap.
+
 ### Most important / commonly asked
 
-- **Merge Intervals**
-- **Insert Interval**
-- **Non-overlapping Intervals**
-- **Meeting Rooms**
-- **Meeting Rooms II**
-- **Minimum Number of Arrows to Burst Balloons**
+1. **Merge Intervals**
+2. **Insert Interval**
+3. **Non-overlapping Intervals**
+4. **Meeting Rooms**
+5. **Meeting Rooms II**
+
+## Next Questions
+
+- Minimum Number of Arrows to Burst Balloons
+- Interval List Intersections
 
 ---
 
@@ -629,12 +753,16 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Assign Cookies**
-- **Jump Game**
-- **Gas Station**
-- **Non-overlapping Intervals**
-- **Minimum Number of Arrows to Burst Balloons**
-- **Task Scheduler** (also uses other patterns)
+1. **Jump Game**
+2. **Best Time to Buy and Sell Stock**
+3. **Assign Cookies**
+4. **Non-overlapping Intervals**
+
+## Next Questions
+
+- Jump Game II
+- Gas Station
+- Partition Labels
 
 ---
 
@@ -655,15 +783,15 @@ Learn:
 
 ### Recognition
 
-> Counting bits / XOR / binary-level operations.
+> XOR / binary representation / bit counting → think Bit Manipulation.
 
 ### Most important / commonly asked
 
-- **Single Number**
-- **Number of 1 Bits**
-- **Counting Bits**
-- **Power of Two**
-- **Missing Number** (also works as a bit-manipulation problem)
+1. **Single Number**
+2. **Number of 1 Bits**
+3. **Counting Bits**
+4. **Power of Two**
+5. **Missing Number** (also works as a bit-manipulation problem)
 
 ---
 
@@ -691,13 +819,18 @@ Bottom-up DP
 
 ### Most important / commonly asked
 
-- **Climbing Stairs**
-- **House Robber**
-- **House Robber II**
-- **Coin Change**
-- **Unique Paths**
-- **Longest Common Subsequence** (later)
-- **Target Sum** (later)
+1. **Climbing Stairs**
+2. **House Robber**
+3. **Coin Change**
+4. **Unique Paths**
+
+## Next Questions
+
+- House Robber II
+- Target Sum
+- Longest Common Subsequence
+- Word Break
+- Longest Increasing Subsequence
 
 **Do DP late.** It is one of the least useful topics to attack first when your fundamentals are still developing.
 
@@ -717,9 +850,12 @@ Learn:
 
 ### Most important / commonly asked
 
-- **Implement Trie (Prefix Tree)**
-- **Design Add and Search Words Data Structure**
-- **Word Search II** (advanced)
+1. **Implement Trie (Prefix Tree)**
+2. **Design Add and Search Words Data Structure**
+
+## Next Questions
+
+- Word Search II
 
 ---
 
@@ -799,7 +935,31 @@ Use this as the actual sequence:
 23. Advanced Patterns
 ```
 
-This is deliberately **not identical to Striver's page order**. It is a learning order designed to build one technique on top of another while keeping the high-value interview topics early. Striver's A2Z remains the main course structure; the Handbook and Sean Prashad resources help decide what to prioritize and how to recognize patterns.
+# Pattern Recognition Cheat Sheet
+
+| When the problem says / shows... | Think...                     |
+| -------------------------------- | ---------------------------- |
+| Need fast lookup                 | Hash Map / Set               |
+| Sorted array                     | Binary Search / Two Pointers |
+| Compare from both ends           | Two Pointers                 |
+| Modify in place                  | Two Pointers / Swapping      |
+| Contiguous subarray / substring  | Sliding Window               |
+| Repeated range sums              | Prefix Sum                   |
+| Matching brackets                | Stack                        |
+| Next greater / smaller           | Monotonic Stack              |
+| First-in-first-out processing    | Queue                        |
+| Linked list + middle/cycle       | Fast & Slow Pointers         |
+| Top K / Kth largest              | Heap / Quickselect           |
+| Tree                             | DFS / BFS                    |
+| Grid traversal                   | BFS / DFS                    |
+| Graph connectivity               | DFS / BFS / Union-Find       |
+| Dependencies                     | Topological Sort             |
+| Shortest weighted path           | Dijkstra                     |
+| Overlapping ranges               | Sort + Intervals             |
+| Generate all combinations        | Backtracking                 |
+| Same smaller problems repeat     | Dynamic Programming          |
+| Prefix matching                  | Trie                         |
+| XOR / bit counting               | Bit Manipulation             |
 
 ---
 
@@ -852,19 +1012,41 @@ Tech Interview Handbook currently places Array, String, Sorting/Search, Matrix, 
 
 ### Striver A2Z
 
-Use it to **learn the topic progressively**.
+Use Striver as the **main learning sequence**.
 
-### Tech Interview Handbook
+```text
+Learn concept
+→ brute force
+→ better
+→ optimal
+```
 
-Use it to **understand the technique, complexity, corner cases and interview priority**.
+## Tech Interview Handbook
 
-### Sean Prashad LeetCode Patterns
+Use it to understand:
 
-Use it to **recognize patterns and choose what to practice next**. It currently contains 179 questions grouped by pattern and includes heuristics such as sorted array → binary search/two pointers, fast lookup → hash table/set, next greater/smaller → monotonic stack, top-K → heap/quickselect/bucket sort, and permutations/subsets → backtracking.
+- What is high priority?
+- What technique is being used?
+- What complexity should I know?
+- What corner cases matter?
+- Which questions are essential vs recommended?
+
+## Sean Prashad — LeetCode Patterns
+
+Use it after learning a topic to practice **pattern recognition** and find related problems. It currently contains 179 questions grouped by pattern and includes heuristics such as sorted array → binary search/two pointers, fast lookup → hash table/set, next greater/smaller → monotonic stack, top-K → heap/quickselect/bucket sort, and permutations/subsets → backtracking.
 
 ### LeetCode
 
-Use it to **write, submit, fail, fix, and repeat**.
+Use it to actually:
+
+```text
+Write
+→ Run
+→ Fail
+→ Debug
+→ Submit
+→ Repeat
+```
 
 ---
 
@@ -902,20 +1084,45 @@ rather than:
 
 If you eventually need one compact set to revise before interviews:
 
-### Arrays / Hashing
+### Arrays / Strings
 
 - Two Sum
+- Maximum/Largest Element
+- Second Largest
 - Contains Duplicate
-- Best Time to Buy and Sell Stock
+- Reverse String
+- Palindrome
+- Character Frequency
+- First Non-Repeating Character
+- Anagram
+- Remove Duplicates
+- Missing Number
+- Move Zeroes
 - Maximum Subarray
-- Product of Array Except Self
+- Best Time to Buy and Sell Stock
 
-### Strings
+### Basic DSA
 
-- Valid Palindrome
-- Valid Anagram
-- First Unique Character
-- Longest Substring Without Repeating Characters
+- Valid Parentheses
+- Reverse Linked List
+- Linked List Cycle
+- Merge Two Sorted Lists
+- Binary Search
+- Basic BFS/DFS problem
+
+### Basic numbers
+
+- Prime Number
+- Fibonacci
+- Factorial
+- Palindrome Number
+- Reverse Number
+- Armstrong Number
+- Sum of Digits
+- GCD / HCF
+- LCM
+
+# Advanced Interview Set
 
 ### Two Pointers / Sliding Window
 
@@ -977,3 +1184,18 @@ If you eventually need one compact set to revise before interviews:
 - Climbing Stairs
 - House Robber
 - Coin Change
+
+## The standard for moving to the next topic
+
+You do not need to solve every problem.
+
+Move on when you can:
+
+- Explain the basic pattern.
+- Recognize when to use it.
+- Solve a few representative problems without copying.
+- Explain the brute-force approach.
+- Explain why the optimized approach is better.
+- Explain time and space complexity in simple words.
+
+> **Learn fewer problems deeply instead of collecting hundreds of solutions.**
