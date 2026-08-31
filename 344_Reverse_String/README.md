@@ -71,8 +71,11 @@ Python allows us to swap two values in one line:
 
 ```python
 s[l], s[r] = s[r], s[l]
+```
 
 is same as:
+
+```python
 s[l] = s[r]
 s[r] = s[l]
 ```
