@@ -21,7 +21,7 @@ For:
 
 ```text
 nums = [1, 2, 3, 2]
-```
+````
 
 Step by step:
 
